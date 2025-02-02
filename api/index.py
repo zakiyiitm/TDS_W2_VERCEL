@@ -1,6 +1,7 @@
 import json
 from http.server import BaseHTTPRequestHandler
 import urllib.parse
+from fastapi import FastAPI
 
 # Load student data from the JSON file
 def load_data():
